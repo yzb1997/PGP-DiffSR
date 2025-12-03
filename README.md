@@ -7,9 +7,9 @@
         <a href='https://sites.google.com/view/junlineu/' target='_blank'>Jun Li</a><sup>1</sup>&emsp;
         <a href='https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN' target='_blank'>Jian Yang</a><sup>1</sup>
     </div> -->
-    <div>
+    <!-- <div>
         <sup>School of Computer Science and Engineering, Nanjing University of Science and Technology
-    </div>
+    </div> -->
 </div>
 
 <!-- <div align="center">
