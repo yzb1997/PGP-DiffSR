@@ -12,10 +12,10 @@
     </div> -->
 </div>
 
-<!-- <div align="center">
+<div align="center">
   
 [![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](http://arxiv.org/abs/2512.02681)
 
-</div> -->
+</div>
 
 Although diffusion-based models have achieved impressive results in image super-resolution, they often rely on large-scale backbones such as Stable Diffusion XL (SDXL) and Diffusion Transformers (DiT), which lead to excessive computational and memory costs during training and inference. To address this issue, we develop a lightweight diffusion method, PGP-DiffSR, by removing redundant information from diffusion models under the guidance of the phase information of inputs for efficient image super-resolution. We first identify the intra-block redundancy within the diffusion backbone and propose a progressive pruning approach that removes redundant blocks while preserving restoration capability. We note that the phase information of the restored images produced by the pruned diffusion model is not well estimated. To solve this problem, we propose a phase-exchange adapter module that explores the phase information of the inputs to guide the pruned diffusion model for better restoration performance. We formulate the progressive pruning approach and the phase-exchange adapter module into a unified model. Extensive experiments demonstrate that our method achieves competitive restoration quality while significantly reducing computational load and memory consumption.
